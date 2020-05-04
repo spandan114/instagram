@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#canvas1{
+	position:absolute;
+	top:0;
+    left:0;
+	width:100%;
+    height:100%;
+    /* background-image: url('./person-wearing-red-hoodie-1097456.jpg'); */
+    /* object-fit: cover; */
+
+     /* linear-gradient(to right top, #ffde00, #ff9e1c, #ff5750, #fb007e, #b500a5); */
+	/* background:radial-gradient(#ffc38c,#ff9b40) */
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
