@@ -1,6 +1,7 @@
 body{
   padding: 0;
   margin: 0;
+  background: #f1f1f1;
 }
 .middle{
   position: absolute;
@@ -9,15 +10,35 @@ body{
   width: 100%;
   text-align: center;
 }
+.youtube{
+  color: #c0392b;
+}
+.facebook{
+  color: #3b5998;
+}
+.twitter{
+  color: #00acee;
+}
+.fa-instagram {
+	background: -webkit-gradient(linear, left top, left bottom, from(#BC33B0), to(#F5FF17));
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 26px;
+}
+.fa-instagram:hover{
+   background: #ffff;
+   -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 .btn{
   display: inline-block;
   width: 90px;
   height: 90px;
-  background: #f1f1f1;
+  background: #ffff;
   margin: 10px;
-  border-radius: 30%;
+  border-radius: 50%;
   box-shadow: 0 5px 15px -5px #00000070;
-  color: #3498db;
   overflow: hidden;
   position: relative;
 }
@@ -28,14 +49,44 @@ body{
 }
 .btn:hover i{
   transform: scale(1.3);
-  color: #f1f1f1;
+  color: #ffff !important;
 }
-.btn::before{
+.youtube::before{
   content: "";
   position: absolute;
   width: 120%;
   height: 120%;
-  background: #3498db;
+  background: #c0392b;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.facebook::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3b5998;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.twitter::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #00acee;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.instagram::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: linear-gradient(to left bottom, #bc33b0, #ff3388, #ff7153, #ffba0b, #f5ff17);
   transform: rotate(45deg);
   left: -110%;
   top: 90%;

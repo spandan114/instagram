@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc800;
+   
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: 'montserrat';
+    font-size: 70px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: url('./custom\ –\ 1.png');
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 7.5s linear infinite;
+    border: 1px solid black;
+}
+
+@keyframes animate {
+    from{
+        background-position: 0% 50% ;
+    }
+    to{
+        background-position: 100% 50% 0%;
+    }
+}
