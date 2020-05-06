@@ -21,12 +21,11 @@ h1{
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 700;
-    background: url('./custom\ –\ 1.png');
+    background: url('https://bit.ly/35DcvsW');
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate 7.5s linear infinite;
-    border: 1px solid black;
 }
 
 @keyframes animate {

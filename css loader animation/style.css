@@ -28,8 +28,6 @@ body{
     animation: loader 10s linear infinite alternate ;
 }
 
-
-
 .bar {
     display: block;
     width: 100%;
@@ -39,7 +37,6 @@ body{
     background-size: 200% 200%;
     animation: loader 10s linear infinite alternate ;
 }
-
 
 @keyframes loader {
     0%{
