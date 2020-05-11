@@ -1,0 +1,42 @@
+
+#showPass {
+    cursor: pointer;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Roboto");
+  body,
+  html {
+    margin:0;
+    color: #34495e;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+  }
+  input {
+    border-radius: 5px;
+    border: none;
+    background: #f6f6f6;
+    color: #666;
+    padding: 15px;
+    font-size: 1.3rem;
+  }
+  .passlabel {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #34495e;
+    background-size:cover;
+  }
+  .formbox {
+    background:white;
+    padding: 40px 50px 50px;
+    border-radius:5px;
+  }
+  #showPass {
+    display:inline-block;
+    margin-left:-40px;
+  }
